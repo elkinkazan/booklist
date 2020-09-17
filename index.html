@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>BookList</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1 class="title">
+        <i class="fas fa-book-open book book-color"></i>
+        My
+        <span class="book-color">Book</span>
+        List
+      </h1>
+
+      <div class="msg">
+
+      </div>
+
+      <form class="book-form">
+        <div class="book-group">
+          <label for="title" class="label">Title</label>
+          <input type="text" id="title" class="input" placeholder="Enter your title" required>
+        </div>
+        <div class="book-group">
+          <label for="author" class="label">Author</label>
+          <input type="text" id="author" class="input" placeholder="Enter your author" required>
+        </div>
+        <div class="book-group">
+          <label for="ISBN" class="label">ISBN</label>
+          <input type="text" id="isbn" class="input" placeholder="Enter your ISBN" required>
+        </div>
+        <input type="submit" value="Add a book" class="input input-submit">
+      </form>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody class="book-list">
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <script type="text/javascript" src="app.js"></script>
+</html>

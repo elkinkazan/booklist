@@ -1,0 +1,67 @@
+.container {
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.book {
+  font-size: 48px;
+}
+
+.book-color {
+  color: blue;
+}
+
+.title {
+  text-align: center;
+}
+
+.label {
+  font-size: 24px;
+  display: block;
+  font-weight: bold;
+}
+
+.input {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.input-submit {
+  padding: 3px;
+  width: 101%;
+  background-color: blue;
+  color: white;
+}
+
+.table {
+  font-size: 24px;
+  width: 101%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-collapse: collapse
+}
+
+th, tr, td {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.danger {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 1px 4px;
+}
+
+.error {
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
